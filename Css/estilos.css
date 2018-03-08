@@ -1,0 +1,386 @@
+.botao{
+  text-align: center;
+  word-spacing: 20;
+  border: 1px solid white;
+  padding: 7px;
+  background-color: white;
+  box-shadow: 0px 1px 2px 0px black;
+  t
+}
+.botoes{
+  text-decoration: none;
+  color: grey;
+  font-size: 35;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+.botoes:hover{
+  text-decoration: none;
+  color: white;
+  font-size: 37;
+  background-color: grey;
+}
+body{
+background-color: #66FFFF;
+}
+.imgvini{
+  border-radius: 150px;
+  width: 250px;;
+  height: 250px;
+  box-shadow:1px 1px 1px black;
+
+}
+.topicodetela{
+  text-decoration: none;
+  color: white;
+  font-size: 35;
+  text-shadow: 2px -2px 6px grey;
+  position: absolute;
+  top: 120;
+  left:25;
+  font-family:monospace;
+}
+.topicodetela2{
+  text-decoration: none;
+  color: white;
+  font-size: 35;
+  text-shadow: 2px -2px 6px grey;
+  position: absolute;
+  top: 378;
+  right: 464;
+  font-family:monospace;
+}
+#textosobremim{
+  text-decoration: none;
+  color: black;
+  font-size: 19;
+  text-shadow: 2px 2px 2px white;
+  position: absolute;
+  top: 160;
+  font-style:italic;
+  border: 1px solid white;
+  padding: 10px;
+
+
+}
+#textosobremim2{
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid white;
+  position: absolute;
+  right:20;
+  color: black;
+  font-size: 19;
+  padding: 10px;
+  top: 420;
+  font-style: italic;
+  text-shadow: 2px 2px 2px white;
+}
+#estilologo{
+  border: 1px solid white;
+  position: absolute;
+  font-size: 30;
+  border-radius: 10px;
+  padding:7px;
+  color: white;
+  letter-spacing: 2px;
+  font-family:serif;
+  background-color: #105050;
+  text-shadow: 1px 1px 1px black;
+  text-decoration: none;
+  top: 65;
+  left: 15;
+}
+#estilologo:hover{
+color: grey;
+background-color: #66FFFF;
+transition: background-color 2s;
+}
+#fotosobre{
+  position:absolute;
+  width: 250px;
+  height: 250px;
+  right: 20;
+  top: -310;
+  border-radius: 150px;
+  box-shadow: 1px 1px 4px ;
+}
+#fotosobre:hover{
+  position:absolute;
+  width: 260px;
+  height: 260px;
+  right: 20;
+  top: -310;
+  border-radius: 150px;
+  box-shadow: 1px 1px 4px ;
+  transition: width 1s;
+}
+#fotosobre2{
+  position:absolute;
+  width: 250px;
+  height: 250px;
+  left: -570;
+  top:-15;
+  border-radius: 150px;
+  box-shadow: 1px 1px 4px ;
+}
+#fotosobre2:hover{
+  width: 260px;
+  height: 260px;
+  border-radius: 150px;
+  box-shadow: 1px 1px 4px ;
+  transition: width 1s;
+}
+#imagemcabecalho{
+display: flex;
+justify-content: center;
+background-color: #003333;
+box-shadow: 0px 1px 2px 0px black;
+transition: box-shadow 1s;
+}
+#imagemcabecalho:hover{
+background-color: #003333;
+box-shadow: 1px 2px 8px;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px black;
+  align-items: flex-end;
+  display: flex;
+  position: absolute;
+  top: 750;
+  right:20;
+  padding: 20px;
+}
+#textobemvindo{
+  position: absolute;
+  padding: 15px;
+  font-size: 40px;
+  font-family:Arial, sans-serif;
+  text-shadow: 1px 1px 4px grey;
+  color: white;
+  bottom: 60;
+  text-align: center;
+  left:2;
+  right: 0;
+  transition: background-color 1s,text-shadow 0.5s;
+  font-style: italic;
+  font-variant: small-caps;
+}
+#textobemvindo:hover{
+  background-color: white;
+  text-shadow: 1px 2px 2px black;
+  color: #003333;
+
+}
+#imagempc{
+  position: absolute;
+  bottom: 159;
+  left: 5;
+  width: 300px;
+}
+#imagemengrenagem{
+position: absolute;
+width: 300px;
+right: 30;
+bottom: 200;
+}
+#imagemredondo{
+position: absolute;
+left: -700;
+}
+#textodovideo{
+position: absolute;
+left: -562;
+bottom: 62;
+text-align: center;
+font-size: 20px;
+color: #003333;;
+font-family: 'Coiny', cursive;
+text-shadow: 1px 1px 4px white;
+transition: color 2s;
+}
+#textodovideo:hover{
+text-shadow: 2px 2px 2px black;
+color: white;
+}
+#imagemflecha{
+  position: absolute;
+  right: 700px;
+  bottom: 300px;
+  transition: width 2s;
+}
+#imagemflecha:hover{
+width: 220;
+height: 120;
+
+}
+#imagemflecha2{
+  position: absolute;
+  right: 200px;
+  bottom: 370px;
+  transition: height 2s;
+}
+#imagemflecha2:hover{
+width: 220;
+height: 120;
+}
+h4{
+position: absolute;
+bottom: 495px;
+right: 360px;
+animation-duration: 5s;
+animation-name: correr;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+color: grey;
+text-shadow: 2px 2px black;
+}
+@keyframes correr {
+  from{
+    margin-left: 150%;
+    width: 160%;
+  }
+  50%{
+    font-size: 20px;
+    margin-left: 50%;
+    width: 60%;
+    color:grey;
+    text-shadow: 1px 1px 4px;
+  }
+  to{
+    width: 190%;
+  }
+ }
+label{
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+  }
+.mudabotaoformulario{
+  background-color: grey;
+  color: white;
+ }
+ form{
+   position: absolute;
+   top: 220px;
+   left: 20px;
+ }
+ .linksredesocial{
+position: absolute;
+top: 96px;
+right: 350px;
+display: flex;
+flex-direction: column;
+ }
+ #imagemcontato{
+width: 1093px;
+height: 510px;
+ }
+ #decoracaolink{
+   text-decoration: none;
+   color: white;
+   text-shadow: 1px 1px 4px black;
+ }
+ #decoracaolink:hover{
+   text-decoration: none;
+   color: white;
+   text-shadow: 1px 1px 8px black;
+ }
+#nomeemailcontato{
+position: absolute;
+top: 197px;
+right: 48px;
+color: black;
+text-shadow: 1px black;
+font-family:monospace;
+font-size: 11px;
+}
+#imagemcelular{
+  position: absolute;
+  width: 210px;
+  height: 290px;
+  bottom: 150px;
+  right: 25px;
+}
+.conjuntoduvida{
+position: absolute;
+top: 300px;
+right: 0;
+left: 0;
+}
+#msgduvida{
+position: relative;
+text-align: center;
+justify-content: center;
+font-family: "Courier New", Courier, monospace;
+background: -webkit-linear-gradient(#eee, #333);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+top: 40px;
+}
+#msgduvida:hover{
+background: -webkit-linear-gradient(#eee, blue);
+-webkit-background-clip: text;
+}
+#topicoduvida{
+position: relative;
+font-family: sans-serif;
+background: -webkit-linear-gradient(#eee, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#conteudoduvida{
+  font-family:cursive;
+  text-indent:10px;
+  color: blue;
+}
+#conteudoduvida2{
+  position: absolute;
+  font-family:cursive;
+  text-indent:10px;
+  right: 20;
+  bottom: 200px;
+  color: blue;
+}
+#topicoduvida2{
+position: relative;
+font-family: sans-serif;
+background: -webkit-linear-gradient(#eee, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: flex;
+justify-content: flex-end;
+right: 60px;
+bottom: 490px;
+}
+#topicoduvida3{
+position: relative;
+font-family: sans-serif;
+background: -webkit-linear-gradient(#eee, blue);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+display: flex;
+justify-content: flex-end;
+right: 60px;
+bottom: 330px;
+}
+#linkduvida{
+position: absolute;
+font-family: arial;
+font-size: 32px;
+font-weight: bold;
+color: white;
+background-color: blue;
+letter-spacing: 10px;
+text-decoration: none;
+transition: background-color 2s;
+right: 150px;
+bottom: 70px;
+}
+#linkduvida:hover{
+background-color: red;
+}
