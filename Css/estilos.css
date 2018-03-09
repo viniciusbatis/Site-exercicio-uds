@@ -292,7 +292,7 @@ height: 510px;
  }
 #nomeemailcontato{
 position: absolute;
-top: 220px;
+top: 236px;
 right: 48px;
 color: black;
 text-shadow: 1px black;
@@ -343,7 +343,7 @@ background: -webkit-linear-gradient(#eee, blue);
   font-family:cursive;
   text-indent:10px;
   right: 20;
-  bottom: 200px;
+  bottom: 248px;
   color: blue;
 }
 #topicoduvida2{
@@ -366,7 +366,7 @@ background: -webkit-linear-gradient(#eee, blue);
 display: flex;
 justify-content: flex-end;
 right: 60px;
-bottom: 330px;
+bottom: 310px;
 }
 #linkduvida{
 position: absolute;
