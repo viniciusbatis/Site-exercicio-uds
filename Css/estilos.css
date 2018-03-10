@@ -343,7 +343,7 @@ background: -webkit-linear-gradient(#eee, blue);
   font-family:cursive;
   text-indent:10px;
   right: 20;
-  bottom: 248px;
+  bottom: 200px;
   color: blue;
 }
 #topicoduvida2{
@@ -383,4 +383,8 @@ bottom: 70px;
 }
 #linkduvida:hover{
 background-color: red;
+}
+.OrganizarPosicao{
+display:flex;
+justify-content: center;
 }
