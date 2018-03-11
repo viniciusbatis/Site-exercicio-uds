@@ -377,12 +377,13 @@ color: white;
 background-color: blue;
 letter-spacing: 10px;
 text-decoration: none;
-transition: background-color 2s;
+transition: color 1s;
 right: 150px;
 bottom: 70px;
 }
 #linkduvida:hover{
-background-color: red;
+background:linear-gradient(DeepSkyBlue,blue);
+color: DeepSkyBlue;
 }
 .OrganizarPosicao{
 display:flex;
